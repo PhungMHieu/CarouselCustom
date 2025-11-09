@@ -6,47 +6,61 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		84D6DFDF2EBED8EE00523334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D6DFD62EBED8EE00523334 /* Assets.xcassets */; };
+		84D6DFE12EBED8EE00523334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D6DFD92EBED8EE00523334 /* LaunchScreen.storyboard */; };
+		84D6DFE22EBED8EE00523334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D6DFDB2EBED8EE00523334 /* Main.storyboard */; };
+		84D6DFE32EBED8EE00523334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6DFD52EBED8EE00523334 /* AppDelegate.swift */; };
+		84D6DFE42EBED8EE00523334 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6DFDC2EBED8EE00523334 /* SceneDelegate.swift */; };
+		84D6DFE52EBED8EE00523334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6DFDD2EBED8EE00523334 /* ViewController.swift */; };
+		84D6DFE82EBED91000523334 /* CarouselVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6DFE72EBED91000523334 /* CarouselVC.xib */; };
+		84D6DFE92EBED91000523334 /* CarouselVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6DFE62EBED91000523334 /* CarouselVC.swift */; };
+		8F33AAA97CAC4D565EBACCA2 /* Pods_CustomCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454E78C71F6E799CB814B88F /* Pods_CustomCarousel.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1B8372AB6EB89BA15B3DB013 /* Pods-CustomCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCarousel.release.xcconfig"; path = "Target Support Files/Pods-CustomCarousel/Pods-CustomCarousel.release.xcconfig"; sourceTree = "<group>"; };
+		454E78C71F6E799CB814B88F /* Pods_CustomCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D6DF9D2EBED7EE00523334 /* CustomCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D6DFD52EBED8EE00523334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D6DFD62EBED8EE00523334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D6DFD72EBED8EE00523334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D6DFD82EBED8EE00523334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D6DFDA2EBED8EE00523334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D6DFDC2EBED8EE00523334 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84D6DFDD2EBED8EE00523334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D6DFE62EBED91000523334 /* CarouselVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselVC.swift; sourceTree = "<group>"; };
+		84D6DFE72EBED91000523334 /* CarouselVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselVC.xib; sourceTree = "<group>"; };
+		85BA9E60F24A0217642D83B9 /* Pods-CustomCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCarousel.debug.xcconfig"; path = "Target Support Files/Pods-CustomCarousel/Pods-CustomCarousel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		84D6DFAF2EBED7EF00523334 /* Exceptions for "CustomCarousel" folder in "CustomCarousel" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 84D6DF9C2EBED7EE00523334 /* CustomCarousel */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		84D6DF9F2EBED7EE00523334 /* CustomCarousel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				84D6DFAF2EBED7EF00523334 /* Exceptions for "CustomCarousel" folder in "CustomCarousel" target */,
-			);
-			path = CustomCarousel;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		84D6DF9A2EBED7EE00523334 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F33AAA97CAC4D565EBACCA2 /* Pods_CustomCarousel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FC63F3C668EFE9FE415E126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				454E78C71F6E799CB814B88F /* Pods_CustomCarousel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84D6DF942EBED7EE00523334 = {
 			isa = PBXGroup;
 			children = (
-				84D6DF9F2EBED7EE00523334 /* CustomCarousel */,
+				84D6DFDE2EBED8EE00523334 /* CustomCarousel */,
 				84D6DF9E2EBED7EE00523334 /* Products */,
+				AFED20082648BE386034760E /* Pods */,
+				0FC63F3C668EFE9FE415E126 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +72,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		84D6DFDE2EBED8EE00523334 /* CustomCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				84D6DFD52EBED8EE00523334 /* AppDelegate.swift */,
+				84D6DFD62EBED8EE00523334 /* Assets.xcassets */,
+				84D6DFD72EBED8EE00523334 /* Info.plist */,
+				84D6DFD92EBED8EE00523334 /* LaunchScreen.storyboard */,
+				84D6DFDB2EBED8EE00523334 /* Main.storyboard */,
+				84D6DFDC2EBED8EE00523334 /* SceneDelegate.swift */,
+				84D6DFDD2EBED8EE00523334 /* ViewController.swift */,
+				84D6DFE62EBED91000523334 /* CarouselVC.swift */,
+				84D6DFE72EBED91000523334 /* CarouselVC.xib */,
+			);
+			path = CustomCarousel;
+			sourceTree = "<group>";
+		};
+		AFED20082648BE386034760E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85BA9E60F24A0217642D83B9 /* Pods-CustomCarousel.debug.xcconfig */,
+				1B8372AB6EB89BA15B3DB013 /* Pods-CustomCarousel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +104,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D6DFB02EBED7EF00523334 /* Build configuration list for PBXNativeTarget "CustomCarousel" */;
 			buildPhases = (
+				3F6212A285AC0AE8A7113367 /* [CP] Check Pods Manifest.lock */,
 				84D6DF992EBED7EE00523334 /* Sources */,
 				84D6DF9A2EBED7EE00523334 /* Frameworks */,
 				84D6DF9B2EBED7EE00523334 /* Resources */,
+				6B056C9A3CB2A7604E6511F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				84D6DF9F2EBED7EE00523334 /* CustomCarousel */,
-			);
 			name = CustomCarousel;
-			packageProductDependencies = (
-			);
 			productName = CustomCarousel;
 			productReference = 84D6DF9D2EBED7EE00523334 /* CustomCarousel.app */;
 			productType = "com.apple.product-type.application";
@@ -122,24 +158,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D6DFDF2EBED8EE00523334 /* Assets.xcassets in Resources */,
+				84D6DFE12EBED8EE00523334 /* LaunchScreen.storyboard in Resources */,
+				84D6DFE82EBED91000523334 /* CarouselVC.xib in Resources */,
+				84D6DFE22EBED8EE00523334 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F6212A285AC0AE8A7113367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomCarousel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B056C9A3CB2A7604E6511F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomCarousel/Pods-CustomCarousel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomCarousel/Pods-CustomCarousel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomCarousel/Pods-CustomCarousel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84D6DF992EBED7EE00523334 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D6DFE32EBED8EE00523334 /* AppDelegate.swift in Sources */,
+				84D6DFE42EBED8EE00523334 /* SceneDelegate.swift in Sources */,
+				84D6DFE92EBED91000523334 /* CarouselVC.swift in Sources */,
+				84D6DFE52EBED8EE00523334 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		84D6DFD92EBED8EE00523334 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D6DFD82EBED8EE00523334 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84D6DFDB2EBED8EE00523334 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D6DFDA2EBED8EE00523334 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		84D6DFB12EBED7EF00523334 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BA9E60F24A0217642D83B9 /* Pods-CustomCarousel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -167,6 +277,7 @@
 		};
 		84D6DFB22EBED7EF00523334 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8372AB6EB89BA15B3DB013 /* Pods-CustomCarousel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -229,7 +340,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -292,7 +403,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
