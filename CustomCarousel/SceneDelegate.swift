@@ -17,7 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         // Khởi tạo từ XIB
-        let rootVC = CarouselVC_Collection()
+//        let rootVC = CarouselVC_Collection()
+        let rootVC = SoundCarouselVC()
         window?.rootViewController = rootVC
         window?.makeKeyAndVisible()
     }

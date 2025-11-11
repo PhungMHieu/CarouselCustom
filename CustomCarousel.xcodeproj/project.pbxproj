@@ -15,6 +15,8 @@
 		84D6DFE52EBED8EE00523334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6DFDD2EBED8EE00523334 /* ViewController.swift */; };
 		84D6DFE82EBED91000523334 /* CarouselVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6DFE72EBED91000523334 /* CarouselVC.xib */; };
 		84D6DFE92EBED91000523334 /* CarouselVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6DFE62EBED91000523334 /* CarouselVC.swift */; };
+		84D6DFF02EC3A18100523334 /* SoundCarouselVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6DFEE2EC3A18100523334 /* SoundCarouselVC.swift */; };
+		84D6DFF12EC3A18100523334 /* SoundCarouselVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6DFEF2EC3A18100523334 /* SoundCarouselVC.xib */; };
 		8F33AAA97CAC4D565EBACCA2 /* Pods_CustomCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454E78C71F6E799CB814B88F /* Pods_CustomCarousel.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		84D6DFDD2EBED8EE00523334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84D6DFE62EBED91000523334 /* CarouselVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselVC.swift; sourceTree = "<group>"; };
 		84D6DFE72EBED91000523334 /* CarouselVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselVC.xib; sourceTree = "<group>"; };
+		84D6DFEE2EC3A18100523334 /* SoundCarouselVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCarouselVC.swift; sourceTree = "<group>"; };
+		84D6DFEF2EC3A18100523334 /* SoundCarouselVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoundCarouselVC.xib; sourceTree = "<group>"; };
 		85BA9E60F24A0217642D83B9 /* Pods-CustomCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCarousel.debug.xcconfig"; path = "Target Support Files/Pods-CustomCarousel/Pods-CustomCarousel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,8 @@
 				84D6DFDD2EBED8EE00523334 /* ViewController.swift */,
 				84D6DFE62EBED91000523334 /* CarouselVC.swift */,
 				84D6DFE72EBED91000523334 /* CarouselVC.xib */,
+				84D6DFEE2EC3A18100523334 /* SoundCarouselVC.swift */,
+				84D6DFEF2EC3A18100523334 /* SoundCarouselVC.xib */,
 			);
 			path = CustomCarousel;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D6DFDF2EBED8EE00523334 /* Assets.xcassets in Resources */,
+				84D6DFF12EC3A18100523334 /* SoundCarouselVC.xib in Resources */,
 				84D6DFE12EBED8EE00523334 /* LaunchScreen.storyboard in Resources */,
 				84D6DFE82EBED91000523334 /* CarouselVC.xib in Resources */,
 				84D6DFE22EBED8EE00523334 /* Main.storyboard in Resources */,
@@ -220,6 +227,7 @@
 			files = (
 				84D6DFE32EBED8EE00523334 /* AppDelegate.swift in Sources */,
 				84D6DFE42EBED8EE00523334 /* SceneDelegate.swift in Sources */,
+				84D6DFF02EC3A18100523334 /* SoundCarouselVC.swift in Sources */,
 				84D6DFE92EBED91000523334 /* CarouselVC.swift in Sources */,
 				84D6DFE52EBED8EE00523334 /* ViewController.swift in Sources */,
 			);
